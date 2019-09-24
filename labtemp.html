@@ -10,15 +10,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/b8ad6a2c89.js" crossorigin="anonymous"></script>
   <script src="labtemp.js"></script>
-  <style type="text/css">
-    #mobileshow { 
-    display:none; 
-    }
-    @media screen and (max-width: 500px) {
-    #mobileshow { 
-    display:block; }
-    }
-  </style>
 </head>
 
 <body>
@@ -27,7 +18,7 @@
 <!-- Navbar (sit on top) -->
 <div class="top">
   <div class="head-bar white wide padding">
-      <div class="bar-item dropdown mobileshow">
+      <div class="bar-item dropdown mobileshow" id='content-mobile'>
           <button class="dropbtn">
             <i class="fas fa-bars"></i>
           </button>
@@ -132,18 +123,7 @@
           
         </div>
     </div>
-
-
-
-    <div id="content-desktop">
-        DESKTOP
-    </div>
-      
-    <div id="content-mobile">
-        MOBILE
-    </div>
     
-
     <!-- Contact Section -->
     <div class="container padding-32" id="contact">
       <h3 class="border-bottom border-light-grey padding-16">Contact</h3>
