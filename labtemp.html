@@ -4,15 +4,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="labtemp.css">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/b8ad6a2c89.js" crossorigin="anonymous"></script>
+  <script src="labtemp.js"></script>
+</head>
+
 <body>
+
 
 <!-- Navbar (sit on top) -->
 <div class="top">
   <div class="head-bar white wide padding">
-      <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+      <div class="dropdown bar-item hide">
+          <button onclick="myFunction()" class="dropbtn">
+            <i class="fas fa-bars"></i>
+          </button>
           <div id="myDropdown" class="dropdown-content">
-            <a href="#">Publications</a>
+            <a href="#Publications">Publications</a>
           </div>
         </div> 
     <a href="#home" class="bar-item button">Vedantham Lab</a>
