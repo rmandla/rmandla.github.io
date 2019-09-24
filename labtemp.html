@@ -10,6 +10,15 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/b8ad6a2c89.js" crossorigin="anonymous"></script>
   <script src="labtemp.js"></script>
+  <style type="text/css">
+    #mobileshow { 
+    display:none; 
+    }
+    @media screen and (max-width: 500px) {
+    #mobileshow { 
+    display:block; }
+    }
+  </style>
 </head>
 
 <body>
@@ -18,14 +27,14 @@
 <!-- Navbar (sit on top) -->
 <div class="top">
   <div class="head-bar white wide padding">
-      <div class="dropdown bar-item hide">
-          <button onclick="myFunction()" class="dropbtn">
+      <div class="bar-item dropdown mobileshow">
+          <button class="dropbtn">
             <i class="fas fa-bars"></i>
           </button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="#Publications">Publications</a>
+          <div class="dropdown-content">
+            <a href="#">Publications</a>
           </div>
-        </div> 
+      </div>
     <a href="#home" class="bar-item button">Vedantham Lab</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="right hide-small">
@@ -39,7 +48,7 @@
 
 <!-- Header -->
 <header class="display-container content wide" style="max-width:100%" id="home">
-    <img class="image" src="/images/Isl1_Hcn4_SAN.jpg" alt="Vedantham Lab" width="1500" height="800">
+    <img class="image" src="/images/Isl1_Hcn4_SAN.jpg" alt="Vedantham Lab">
     <div class="text-block">
       <h1 class="xxlarge"><span class="padding opacity-min"><b>Welcome!</b></span></h1> 
       <p><span class="text-dark-grey">The Vedantham Lab studies the development and</span></p>
@@ -123,6 +132,17 @@
           
         </div>
     </div>
+
+
+
+    <div id="content-desktop">
+        DESKTOP
+    </div>
+      
+    <div id="content-mobile">
+        MOBILE
+    </div>
+    
 
     <!-- Contact Section -->
     <div class="container padding-32" id="contact">
