@@ -265,6 +265,16 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .button:hover{color:#000!important;background-color:#ccc!important}
 .transparent,.hover-none:hover{background-color:transparent!important}
 .hover-none:hover{box-shadow:none!important}
+
+p.eget_bib {
+  font-size: 1em;
+  line-height: 1.8em;
+  color: #747474;
+  padding: 1em 0;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
 /* Colors */
 .amber,.hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .aqua,.hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
